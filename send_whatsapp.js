@@ -18,6 +18,7 @@ client.on("ready", async () => {
   const chats = await client.getChats();
   const group = chats.find((chat) => chat.isGroup && chat.name === chatName);
 
+  //whatsapp api
   if (group) {
     const media = await client.sendMessage(
       group.id._serialized,
