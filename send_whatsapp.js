@@ -11,9 +11,9 @@ client.on("qr", (qr) => {
 });
 
 client.on("ready", async () => {
-  const chatName = "YOUR GROUP NAME HERE";
+  const chatName = "OndcIntegration";
   const filePath = "./dashboard.png";
-  const caption = "all is well";
+  const caption = "All is Well";
 
   const chats = await client.getChats();
   const group = chats.find((chat) => chat.isGroup && chat.name === chatName);
