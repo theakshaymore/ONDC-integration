@@ -1,3 +1,2 @@
-2025/07/28-22:34:03.661 5194 Reusing MANIFEST D:\Javascript\ondcauto\chrome-profile\Default\Sync Data\LevelDB/MANIFEST-000001
-2025/07/28-22:34:03.661 5194 Recovering log #3
-2025/07/28-22:34:03.662 5194 Reusing old log D:\Javascript\ondcauto\chrome-profile\Default\Sync Data\LevelDB/000003.log 
+2025/07/28-23:08:27.691 250c Creating DB D:\Javascript\ondcauto\chrome-profile\Default\Sync Data\LevelDB since it was missing.
+2025/07/28-23:08:27.702 250c Reusing MANIFEST D:\Javascript\ondcauto\chrome-profile\Default\Sync Data\LevelDB/MANIFEST-000001

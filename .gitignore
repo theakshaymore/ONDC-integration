@@ -2,3 +2,5 @@
 /wwebjs_auth
 /wwebjs_cache
 /mylogs
+/chrome-profile
+.env

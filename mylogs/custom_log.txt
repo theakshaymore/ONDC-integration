@@ -93,3 +93,59 @@
 (Use `node --trace-deprecation ...` to show where the warning was created)
 [2025-07-28T17:05:07.722Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
 [2025-07-28T17:05:23.904Z] [log] Screenshot sent to group!
+[2025-07-28T17:06:06.756Z] [error] (node:10452) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:07:02.898Z] [error] (node:20996) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:08:02.852Z] [error] (node:9676) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:09:03.034Z] [error] (node:15536) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:10:03.096Z] [error] (node:16164) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:11:02.880Z] [error] (node:10212) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:12:02.987Z] [error] (node:20560) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:12:52.430Z] [error] (node:7988) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:13:00.086Z] [error] (node:18852) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:16:38.686Z] [error] (node:17368) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:17:47.119Z] [error] (node:21100) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:20:02.974Z] [error] (node:17592) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:23:07.769Z] [error] (node:21340) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:23:48.638Z] [error] (node:8916) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:24:03.525Z] [error] (node:17440) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:24:26.449Z] [error] (node:18604) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:24:29.159Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+[2025-07-28T17:24:40.214Z] [log] Screenshot sent to group!
+[2025-07-28T17:25:08.830Z] [error] (node:18988) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:25:13.955Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+[2025-07-28T17:25:24.137Z] [log] Screenshot sent to group!
+[2025-07-28T17:26:03.229Z] [error] (node:9080) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:26:08.064Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+[2025-07-28T17:26:21.677Z] [log] Screenshot sent to group!
+[2025-07-28T17:27:01.867Z] [error] (node:20872) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:27:07.210Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+[2025-07-28T17:27:19.625Z] [log] Screenshot sent to group!
+[2025-07-28T17:28:02.924Z] [error] (node:12600) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:29:03.224Z] [error] (node:17404) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:32:02.884Z] [error] (node:12604) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:42:36.488Z] [error] (node:4276) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T17:42:55.711Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+[2025-07-28T17:43:08.199Z] [log] Screenshot sent to group!
