@@ -28,3 +28,55 @@ Emitted 'error' event on WriteStream instance at:
 }
 
 Node.js v22.12.0
+(node:21328) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBUSY: resource busy or locked, open 'D:\Javascript\ondcauto\custom_log.txt'
+Emitted 'error' event on WriteStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'open',
+  path: 'D:\\Javascript\\ondcauto\\custom_log.txt'
+}
+
+Node.js v22.12.0
+(node:6072) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBUSY: resource busy or locked, open 'D:\Javascript\ondcauto\custom_log.txt'
+Emitted 'error' event on WriteStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'open',
+  path: 'D:\\Javascript\\ondcauto\\custom_log.txt'
+}
+
+Node.js v22.12.0
+(node:5384) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+Screenshot sent to group!
+(node:12780) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+Screenshot sent to group!
+(node:6460) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+Screenshot sent to group!
+(node:21480) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+Screenshot sent to group!
