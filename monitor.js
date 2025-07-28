@@ -7,7 +7,7 @@ const { Client, LocalAuth, MessageMedia } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
 
 // Configurations
-const DASHBOARD_URL = process.env.DASHBOARD_UR;
+const DASHBOARD_URL = process.env.DASHBOARD_URL;
 const GROUP_ID = process.env.GROUP_ID;
 const CAPTION = "All is well ✅";
 const VIEWPORT = { width: 1920, height: 1080 };
@@ -44,7 +44,7 @@ process.on("exit", () => logStream.end());
 
   // added by Monica
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     executablePath:
       "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     userDataDir: "D:\\Javascript\\ondcauto\\chrome-profile",

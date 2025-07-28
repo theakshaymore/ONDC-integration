@@ -1,2 +1,3 @@
-2025/07/28-23:08:27.906 10c8 Creating DB D:\Javascript\ondcauto\chrome-profile\Default\Local Storage\leveldb since it was missing.
-2025/07/28-23:08:27.965 10c8 Reusing MANIFEST D:\Javascript\ondcauto\chrome-profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/07/28-23:12:37.032 31f0 Reusing MANIFEST D:\Javascript\ondcauto\chrome-profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/07/28-23:12:37.052 31f0 Recovering log #3
+2025/07/28-23:12:37.054 31f0 Reusing old log D:\Javascript\ondcauto\chrome-profile\Default\Local Storage\leveldb/000003.log 
