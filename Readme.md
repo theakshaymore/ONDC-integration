@@ -16,6 +16,10 @@ Note:
 
 - whatsapp-web.js: https://github.com/pedroslopez/whatsapp-web.js
 
+# Workflow
+
+![Workflow](workflow-diagram.png)
+
 ## Installation
 
 - git clone [https://github.com/theakshaymore/ONDC-integration.git](https://github.com/theakshaymore/ONDC-integration.git)
