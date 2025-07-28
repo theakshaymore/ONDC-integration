@@ -4,7 +4,7 @@ const puppeteer = require("puppeteer");
 (async () => {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
-  await page.goto("https://console.cloud.google.com/monitoring/dashboards", {
+  await page.goto("https://akshaymore.netlify.app/", {
     waitUntil: "networkidle2",
   });
 
