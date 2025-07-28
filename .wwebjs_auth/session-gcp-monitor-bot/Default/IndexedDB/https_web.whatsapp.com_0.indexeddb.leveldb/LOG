@@ -1,26 +1,24 @@
-2025/07/28-21:14:22.978 2a6c Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/28-21:14:22.979 2a6c Recovering log #45
-2025/07/28-21:14:23.162 2a6c Reusing old log D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000045.log 
-2025/07/28-21:14:23.162 2a6c Delete type=2 #38
-2025/07/28-21:14:23.162 2a6c Delete type=2 #47
-2025/07/28-21:14:25.003 4ea4 Level-0 table #51: started
-2025/07/28-21:14:25.030 4ea4 Level-0 table #51: 765527 bytes OK
-2025/07/28-21:14:25.031 4ea4 Delete type=0 #45
-2025/07/28-21:14:25.032 4a40 Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/07/28-21:14:25.036 4ea4 Level-0 table #53: started
-2025/07/28-21:14:25.049 4ea4 Level-0 table #53: 249 bytes OK
-2025/07/28-21:14:25.050 4ea4 Delete type=0 #50
-2025/07/28-21:14:25.051 4ea4 Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1c\x00\x00\x05' @ 79705 : 0
-2025/07/28-21:14:25.051 4ea4 Compacting 1@0 + 1@1 files
-2025/07/28-21:14:25.100 4ea4 Generated table #54@0: 17036 keys, 456506 bytes
-2025/07/28-21:14:25.100 4ea4 Compacted 1@0 + 1@1 files => 456506 bytes
-2025/07/28-21:14:25.100 4ea4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/07/28-21:14:25.101 4ea4 Delete type=2 #53
-2025/07/28-21:14:25.102 4ea4 Manual compaction at level-0 from '\x00\x1c\x00\x00\x05' @ 79705 : 0 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/07/28-21:14:29.376 4948 Compacting 1@1 + 1@2 files
-2025/07/28-21:14:29.641 4948 Generated table #55@1: 17299 keys, 702913 bytes
-2025/07/28-21:14:29.641 4948 Compacted 1@1 + 1@2 files => 702913 bytes
-2025/07/28-21:14:29.641 4948 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/07/28-21:14:29.642 4948 Delete type=2 #48
-2025/07/28-21:14:29.642 4948 Delete type=2 #51
-2025/07/28-21:14:29.642 4948 Delete type=2 #54
+2025/07/28-21:58:13.430 9cc Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/28-21:58:13.430 9cc Recovering log #66
+2025/07/28-21:58:13.470 9cc Reusing old log D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000066.log 
+2025/07/28-21:58:13.470 9cc Delete type=2 #62
+2025/07/28-21:58:13.470 9cc Delete type=2 #68
+2025/07/28-21:58:15.553 1cb8 Level-0 table #72: started
+2025/07/28-21:58:15.563 1cb8 Level-0 table #72: 164708 bytes OK
+2025/07/28-21:58:15.564 1cb8 Delete type=0 #66
+2025/07/28-21:58:15.566 51e8 Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/28-21:58:15.569 1cb8 Level-0 table #74: started
+2025/07/28-21:58:15.587 1cb8 Level-0 table #74: 448 bytes OK
+2025/07/28-21:58:15.588 1cb8 Delete type=0 #71
+2025/07/28-21:58:15.589 1cb8 Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at '\x00"\x00\x00\x05' @ 101277 : 0
+2025/07/28-21:58:15.589 1cb8 Compacting 1@0 + 1@1 files
+2025/07/28-21:58:15.603 1cb8 Generated table #75@0: 3996 keys, 88334 bytes
+2025/07/28-21:58:15.603 1cb8 Compacted 1@0 + 1@1 files => 88334 bytes
+2025/07/28-21:58:15.604 1cb8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/28-21:58:15.604 1cb8 Delete type=2 #74
+2025/07/28-21:58:15.604 1cb8 Manual compaction at level-0 from '\x00"\x00\x00\x05' @ 101277 : 0 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/28-21:58:18.197 1cb8 Compacting 1@1 + 1@2 files
+2025/07/28-21:58:18.259 1cb8 Generated table #76@1: 22130 keys, 882599 bytes
+2025/07/28-21:58:18.259 1cb8 Compacted 1@1 + 1@2 files => 882599 bytes
+2025/07/28-21:58:18.260 1cb8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/28-21:58:18.260 1cb8 Delete type=2 #72
