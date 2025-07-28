@@ -5,7 +5,9 @@ const { Client, LocalAuth, MessageMedia } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
 
 // Configurations
-const DASHBOARD_URL = "https://akshaymore.netlify.app/";
+// const DASHBOARD_URL = "https://akshaymore.netlify.app/";
+const DASHBOARD_URL =
+  "https://console.firebase.google.com/project/eavesdrop-dummy/analytics/app/web:YTQ4NDVlMWEtYzcyZC00OThmLTg2YmMtNTg3ZDc4YzYyOGM4/overview/reports~2Fdashboard%3Fr%3Dfirebase-overview&fpn%3D674020683550";
 const GROUP_ID = "120363421612780741@g.us";
 const CAPTION = "All is well ✅";
 const VIEWPORT = { width: 1920, height: 1080 };
@@ -27,10 +29,21 @@ process.on("exit", () => logStream.end());
 
 (async () => {
   // take screenshot
-  const browser = await puppeteer.launch({ headless: true });
+  // const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    // headless: true,
+    headless: false,
+    userDataDir: path.join(__dirname, "chrome-profile"),
+  });
   const page = await browser.newPage();
   await page.setViewport(VIEWPORT);
   await page.goto(DASHBOARD_URL, { waitUntil: "networkidle2" });
+
+  //added pause for google auth issue
+  await page.waitForTimeout(120000);
+  // addition by Monica
+  // element that exists only when the dashboard finished loading
+  await page.waitForSelector("canvas,iframe,div.chart");
   await page.screenshot({ path: SCREEN_PATH }); // no fullPage
   await browser.close();
   console.log("Screenshot saved →", SCREEN_PATH);

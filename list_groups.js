@@ -1,10 +1,8 @@
 const { Client, LocalAuth } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
 
-/* reuse the same LocalAuth folder you already use in the main script
-   so you will NOT have to scan the QR again if you’re already linked */
 const client = new Client({
-  authStrategy: new LocalAuth({ clientId: "gcp-monitor-bot" }), // or 'Default'
+  authStrategy: new LocalAuth({ clientId: "gcp-monitor-bot" }),
   puppeteer: { headless: true, args: ["--no-sandbox"] },
 });
 
@@ -15,7 +13,7 @@ client.on("ready", async () => {
     .filter((c) => c.isGroup)
     .forEach((c) => console.log(`${c.name}  →  ${c.id._serialized}`));
 
-  client.destroy(); // exit after printing
+  client.destroy();
 });
 
 client.initialize();

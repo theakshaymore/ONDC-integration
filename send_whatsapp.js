@@ -10,6 +10,7 @@ client.on("qr", (qr) => {
   qrcode.generate(qr, { small: true });
 });
 
+//
 client.on("ready", async () => {
   const chatName = "OndcIntegration";
   const filePath = "./dashboard.png";
