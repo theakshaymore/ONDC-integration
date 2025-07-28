@@ -1,3 +1,2 @@
-2025/07/28-23:12:56.040 4a74 Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\Service Worker\Database/MANIFEST-000001
-2025/07/28-23:12:56.041 4a74 Recovering log #3
-2025/07/28-23:12:56.041 4a74 Reusing old log D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\Service Worker\Database/000003.log 
+2025/07/29-00:53:16.008 c70 Creating DB D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\Service Worker\Database since it was missing.
+2025/07/29-00:53:16.014 c70 Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\Service Worker\Database/MANIFEST-000001

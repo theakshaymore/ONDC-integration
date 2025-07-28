@@ -153,3 +153,56 @@
 (Use `node --trace-deprecation ...` to show where the warning was created)
 [2025-07-28T18:54:06.813Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
 [2025-07-28T18:54:18.224Z] [log] Screenshot sent to group!
+[2025-07-28T18:56:19.677Z] [error] (node:3272) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T18:56:48.479Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+[2025-07-28T18:57:04.524Z] [log] Screenshot sent to group!
+
+
+
+
+
+
+
+
+
+[2025-07-28T19:15:20.823Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+[2025-07-28T19:22:43.856Z] [error] (node:7048) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T19:23:03.285Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+[2025-07-28T19:23:22.025Z] [log] ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀▀▀ ▀ █▀▀██ ▀ ▄▄  ▀ █▄▄ █▀██▀█▀██▀▄▄▄▄▄ ██ ▄▄▄▄▄ █
+█ █   █ █▀█▄▄█ ▄██ ▀██▄█▀ ▀██▄ ▄▄▄▀ ▄▀ ▄██▄▄▄▄ ▄ ██ █   █ █
+█ █▄▄▄█ █▀█  █▀█▄█▀▀▄ ▀▄▀ █ ▄▄▄ ██▀▀█▀ ▀ ▄▄▄█▀▀▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄█ █▄▀▄█ ▀ █ █ █ █▄█ ▀▄█ ▀▄▀ ▀▄▀ █ █▄▀▄█▄▄▄▄▄▄▄█
+█▄▄▄ ▄█▄  ▄▄██▄███ ▄▄▄ ▀ ▀ ▄ ▄▄ ▀█▀██  ▄█▀   ▀▀▄▀ ▄█▄█▄▀ ▀█
+█▀  ▀█▄▄█▄▀ ▄▀▄  ▀▀ ▀▀▀   ▀▄█▀ █▀▀▄▄█▄ ▄▀▄▄▄▀▀█▄▄▀ ▄ █▀▀▄██
+██▄▀ ▀ ▄█▄▀▀  ▄▄█▄▀ ▀▄▀▄ ▀█ █▀▀█ ▀▄█  ▀█▀▀  ▀▀▄▄▀▀ █▀█▀  ▄█
+█▄ ▄▄ █▄█▀▄▀ █▀▀█ ▄ ▄█▀▀ ▄▀█ ▄█▄ █▀ ▀▀▄▀▀██ █  ██▀▄█▄▀█▀▄██
+█▀ ███▄▄▀▄▄███ ██▄▀▄ ███▄▀█▄▀   ▄▀▀█ ▄▄▄█▀  ▄██▄▄▀█▄▀█ ▀▀▀█
+█▄█ █▄ ▄▀█ ▀▄▄▀█▄▄▄██   ▄ ███ ▀▄ ▀█ ▀▄▄▄█▀▀█ █▄ █ ▄   ▀▀███
+██▄▀█▀█▄▀▄▀▀▄ ▀█▄▀  ▄█▀█▀▄  ▄█▀▀▀█ █ ▄ █▄█▀  █▄█▄▀▀▄▀▀▄▄▀ █
+██▀▄  █▄▄▀   ▄▀▄▄ ▄▄▄█▄ ▀█▀   █ ▄██ ▀██▀▀██▀▀█   ▄█▄ █▀ ▀▀█
+██ ▄▄▀ ▄▄ █▄█ █ ▄▄▄ █▄█▀ ▀▀▀█▀▀▀▄  █▀ █▄▀█▄  ▀██▀▀▀██▀▄▀▄ █
+██▀██ ▄▄▄  ▀▄ █ ▀▄▄█ ▀▄█  █ ▄▄▄   ▀ ██▄▄██ ██▄▀▄▄ ▄▄▄ ▀  ██
+██▄   █▄█  ▀  ▀▄ ▄▄▀▀▄▄█▀▀█ █▄█ ▀▀▄▄ ▄██▀█  ▄██▄█ █▄█ ▀▀ ▀█
+██  ▄ ▄▄▄    ▀█ ███▄█▄▄█  ▄   ▄ ▄▄█▀█▄▄▄█▄▀█▀▄▄ █▄▄▄▄ ▀▀▀██
+█ █ ▀  ▄█ ▀ █ ██▄█▀▄▀▄▀█ ▀█▄▄▄▀  ▀▀█ ▄▀▄▀█   ▀▄▄█▀ █▀▄▄ ███
+██ ▀  █▄▄ ▄▄▀▄██ ▀▄▄█▀▀▀▄ █   ▀ ▀  ▄▄▀█▀█▀▄ ▄▀▄▀ ▀▄█▀▄▀ ▄▀█
+█ ▄▀  █▄ ▄▀  █▀█▀█ ▄▀▀█▀▄ █▀▀█▄▄ ▀▄█ ▄▀███   █▀▄█▀█▀▄█▀ █▀█
+██▄ ▄█▀▄▄█   █▀▄▀█▀ ▀ ▄▄▄ ▄ ▀█▄  █▀▄ ▄▀█▄████▀▀ █▄ █  █▀▄▄█
+█ ▀ ▀█ ▄▄████▀ ▄█▄▄ ▄▄██▀▀█▀███▀▀█▀█▀ ▀███  ▄▀▄▄█▄▄▀██▄█▀▀█
+█ ▄██▄█▄█▄▄█▄  █  ▀ ▄▀▀ ▀██▀▀▀▄▄██ █ ▄▄▀ ▄▀▀  ▄ ██▀▀▀██▀▄▀█
+█▄▀▄▄█ ▄▀█▀▀  █▄▄█▀  ▄▀▄▀▀▄▄▄█ █▄█▄▄▀▄▀███ ▀ ██▄█ ▄█ ▄ ▀█ █
+█ ▀ ▀▀▄▄▀▄▄ ▄▀▄ ▄▀█▄  ▄▄  ▀    ▄▄▀█▀▄█▄▄█▀▄█▀ ██ ▄ ▀ ▀▀  ▀█
+███████▄█ ▀▀███▀▄▄▄▄▀▄▀█▄▀█ ▄▄▄ ▄█▄█▀▄ █▄▀▀▀ ▀███ ▄▄▄  ▀ ▀█
+█ ▄▄▄▄▄ █▄▀█▀█   ▀▀▀ ▀▄▄█ █ █▄█    ▄▄▄▄▀▄ ▀▀▀  ▀▄ █▄█ ▀▀▀██
+█ █   █ █  ▀▀██▄▄▀▄▄▄█▀█▀▄  ▄  ▄▄▀██  ▀▄▀▀▀▀▄▀▀█▀▄▄▄ ▄█▄▄██
+█ █▄▄▄█ █  ▀▀▄█▄▄ █▀▄█ ▀▀████▀▀██▄▄ ▀▀█▀█▀▄▄██▀ ▀  ▄▀█  ███
+█▄▄▄▄▄▄▄█▄█▄███▄█▄▄▄▄█████▄██▄█▄▄▄▄▄▄▄█▄███▄▄█▄▄█▄▄█▄█▄█▄██
+
+[2025-07-28T19:23:52.792Z] [log] Screenshot sent to group!
+[2025-07-28T19:24:33.415Z] [error] (node:19580) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-07-28T19:24:54.213Z] [log] Screenshot saved → D:\Javascript\ondcauto\myscreenshots\dashboard.png
+[2025-07-28T19:25:09.246Z] [log] Screenshot sent to group!
