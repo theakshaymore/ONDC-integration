@@ -6,7 +6,7 @@ Note:
 - The whole thing would be even more fun with a React library, but I’m too lazy to do that 😄
 - Pull requests are welcome, though!
 
-#Tools you need
+# Tools you need
 
 - Node.js 18+: https://nodejs.org/
 
