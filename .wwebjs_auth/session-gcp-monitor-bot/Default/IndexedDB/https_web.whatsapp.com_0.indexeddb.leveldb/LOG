@@ -1,26 +1,24 @@
-2025/07/29-01:00:25.930 4494 Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/29-01:00:25.931 4494 Recovering log #115
-2025/07/29-01:00:26.018 4494 Reusing old log D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000115.log 
-2025/07/29-01:00:26.019 4494 Delete type=2 #108
-2025/07/29-01:00:26.020 4494 Delete type=2 #117
-2025/07/29-01:00:27.849 8e0 Level-0 table #121: started
-2025/07/29-01:00:28.007 8e0 Level-0 table #121: 178077 bytes OK
-2025/07/29-01:00:28.009 8e0 Delete type=0 #115
-2025/07/29-01:00:28.010 8e0 Manual compaction at level-0 from '\x001\x00\x00\x00' @ 72057594037927935 : 1 .. '\x002\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/07/29-01:00:28.017 3f78 Level-0 table #123: started
-2025/07/29-01:00:28.049 3f78 Level-0 table #123: 446 bytes OK
-2025/07/29-01:00:28.051 3f78 Delete type=0 #120
-2025/07/29-01:00:28.054 3f78 Manual compaction at level-0 from '\x002\x00\x00\x00' @ 72057594037927935 : 1 .. '\x003\x00\x00\x00' @ 0 : 0; will stop at '\x002\x00\x00\x05' @ 132032 : 0
-2025/07/29-01:00:28.054 3f78 Compacting 1@0 + 1@1 files
-2025/07/29-01:00:28.068 3f78 Generated table #124@0: 4222 keys, 92417 bytes
-2025/07/29-01:00:28.068 3f78 Compacted 1@0 + 1@1 files => 92417 bytes
-2025/07/29-01:00:28.071 3f78 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/07/29-01:00:28.073 3f78 Delete type=2 #123
-2025/07/29-01:00:28.078 3f78 Manual compaction at level-0 from '\x002\x00\x00\x05' @ 132032 : 0 .. '\x003\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/07/29-01:00:32.436 3f78 Compacting 1@1 + 1@2 files
-2025/07/29-01:00:32.860 3f78 Generated table #125@1: 15239 keys, 564411 bytes
-2025/07/29-01:00:32.860 3f78 Compacted 1@1 + 1@2 files => 564411 bytes
-2025/07/29-01:00:32.860 3f78 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/07/29-01:00:32.861 3f78 Delete type=2 #118
-2025/07/29-01:00:32.861 3f78 Delete type=2 #121
-2025/07/29-01:00:32.861 3f78 Delete type=2 #124
+2025/07/29-18:00:21.928 5388 Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/29-18:00:21.928 5388 Recovering log #433
+2025/07/29-18:00:21.950 5388 Reusing old log D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000433.log 
+2025/07/29-18:00:23.701 212c Level-0 table #439: started
+2025/07/29-18:00:23.719 212c Level-0 table #439: 201626 bytes OK
+2025/07/29-18:00:23.720 212c Delete type=0 #433
+2025/07/29-18:00:23.722 212c Manual compaction at level-0 from '\x00\x91\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x92\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/29-18:00:23.728 212c Level-0 table #441: started
+2025/07/29-18:00:23.744 212c Level-0 table #441: 447 bytes OK
+2025/07/29-18:00:23.745 212c Delete type=0 #438
+2025/07/29-18:00:23.745 212c Manual compaction at level-0 from '\x00\x92\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x93\x00\x00\x00' @ 0 : 0; will stop at '\x00\x92\x00\x00\x05' @ 492649 : 0
+2025/07/29-18:00:23.745 212c Compacting 1@0 + 1@1 files
+2025/07/29-18:00:23.762 212c Generated table #442@0: 4082 keys, 90880 bytes
+2025/07/29-18:00:23.762 212c Compacted 1@0 + 1@1 files => 90880 bytes
+2025/07/29-18:00:23.762 212c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/29-18:00:23.763 212c Delete type=2 #441
+2025/07/29-18:00:23.763 212c Manual compaction at level-0 from '\x00\x92\x00\x00\x05' @ 492649 : 0 .. '\x00\x93\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/29-18:00:26.200 47b0 Compacting 1@1 + 1@2 files
+2025/07/29-18:00:26.317 47b0 Generated table #443@1: 63484 keys, 2136810 bytes
+2025/07/29-18:00:26.317 47b0 Compacted 1@1 + 1@2 files => 2136810 bytes
+2025/07/29-18:00:26.317 47b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/29-18:00:26.318 47b0 Delete type=2 #436
+2025/07/29-18:00:26.318 47b0 Delete type=2 #439
+2025/07/29-18:00:26.318 47b0 Delete type=2 #442
