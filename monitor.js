@@ -12,6 +12,7 @@ const GROUP_ID = process.env.GROUP_ID;
 const CAPTION = "All is well ✅";
 const VIEWPORT = { width: 1920, height: 1080 };
 
+// File paths
 const SCREEN_PATH = path.join(
   __dirname,
   process.env.SCREENSHOT_PATH || "myscreenshots/dashboard.png"
@@ -21,52 +22,51 @@ const LOG_PATH = path.join(
   process.env.LOGS_PATH || "mylogs/custom_log.txt"
 );
 
+// Ensure screenshot and log directories exist
+fs.mkdirSync(path.dirname(SCREEN_PATH), { recursive: true });
+fs.mkdirSync(path.dirname(LOG_PATH), { recursive: true });
+
 // log-to-file wrapper
 const logStream = fs.createWriteStream(LOG_PATH, { flags: "a" });
 const stamp = () => new Date().toISOString();
 ["log", "info", "warn", "error"].forEach((level) => {
   const orig = console[level];
   console[level] = (...args) => {
-    orig(...args); // keep terminal
+    orig(...args); // also log to terminal
     logStream.write(`[${stamp()}] [${level}] ${args.join(" ")}\n`);
   };
 });
 process.on("exit", () => logStream.end());
 
 (async () => {
-  // take screenshot
-  // const browser = await puppeteer.launch({ headless: true });
-
-  /* const browser = await puppeteer.launch({
-     headless: true,
-     userDataDir: path.join(__dirname, "chrome-profile"),
-   }); */
-
-  // added by Monica
+  // Launch Puppeteer with Linux Chromium
   const browser = await puppeteer.launch({
     headless: true,
-    // executablePath:
-    //   "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     executablePath: "/usr/bin/chromium-browser",
-    userDataDir: "D:\\Javascript\\ondcauto\\chrome-profile",
+    userDataDir: path.join(__dirname, "chrome-profile"),
+    args: ["--no-sandbox"],
   });
 
-  const page = await browser.newPage();
-  await page.setViewport(VIEWPORT);
-  await page.goto(DASHBOARD_URL, { waitUntil: "networkidle2" });
+  try {
+    const page = await browser.newPage();
+    await page.setViewport(VIEWPORT);
+    await page.goto(DASHBOARD_URL, { waitUntil: "networkidle2" });
 
-  //added pause for google auth issue
-  // await page.waitForTimeout(1200000);
-  // await new Promise((res) => setTimeout(res, 1200000));
+    // Wait for dashboard elements indicating full load
+    await page.waitForSelector("canvas,iframe,div.chart", { timeout: 60000 });
 
-  // addition by Monica
-  // element that exists only when the dashboard finished loading
-  await page.waitForSelector("canvas,iframe,div.chart");
-  await page.screenshot({ path: SCREEN_PATH }); // no fullPage
+    // Take screenshot (will overwrite each time)
+    await page.screenshot({ path: SCREEN_PATH });
+    console.log("Screenshot saved →", SCREEN_PATH);
+  } catch (err) {
+    console.error("Error during screenshot:", err);
+    await browser.close();
+    process.exit(1);
+  }
+
   await browser.close();
-  console.log("Screenshot saved →", SCREEN_PATH);
 
-  //send to whatsapp
+  // Initialize WhatsApp client to send the screenshot
   const client = new Client({
     authStrategy: new LocalAuth({ clientId: "gcp-monitor-bot" }),
     puppeteer: { headless: true, args: ["--no-sandbox"] },
@@ -80,9 +80,10 @@ process.on("exit", () => logStream.end());
       await client.sendMessage(GROUP_ID, media, { caption: CAPTION });
       console.log("Screenshot sent to group!");
     } catch (err) {
-      console.error("Failed to send:", err);
+      console.error("Failed to send screenshot:", err);
     } finally {
-      setTimeout(() => client.destroy(), 10_000); // allow upload
+      // Delay destroy to allow upload finish
+      setTimeout(() => client.destroy(), 10_000);
     }
   });
 
