@@ -42,6 +42,7 @@ process.on("exit", () => logStream.end());
      userDataDir: path.join(__dirname, "chrome-profile"),
    }); */
 
+  //
   // added by Monica
   const browser = await puppeteer.launch({
     headless: true,
