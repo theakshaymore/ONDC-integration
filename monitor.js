@@ -45,9 +45,9 @@ process.on("exit", () => logStream.end());
   // added by Monica
   const browser = await puppeteer.launch({
     headless: true,
-    // executablePath:
-    //   "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-    executablePath: "/usr/bin/chromium-browser",
+    executablePath:
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    // executablePath: "/usr/bin/chromium-browser",
     userDataDir: "D:\\Javascript\\ondcauto\\chrome-profile",
   });
 
