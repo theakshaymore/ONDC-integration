@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Auto Hits Generator</title>
+  </head>
+  <body>
+    <h1>Auto Hits Generator ONDC</h1>
+    <button onclick="sendHit()">Send Hit</button>
+    <script>
+      function sendHit() {
+        fetch(
+          "https://console.firebase.google.com/project/eavesdrop-dummy/database/eavesdrop-dummy-default-rtdb/data/.json",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              message: "Hit from hosted page",
+              time: new Date().toISOString(),
+            }),
+          }
+        )
+          .then((res) => res.json())
+          .then((data) => console.log("Hit sent:", data))
+          .catch((err) => console.error("Error sending hit:", err));
+      }
+
+      // Optionally send a hit automatically every 10 seconds
+      // setInterval(sendHit, 10000);
+    </script>
+  </body>
+</html>

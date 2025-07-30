@@ -1,24 +1,26 @@
-2025/07/29-18:00:21.928 5388 Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/29-18:00:21.928 5388 Recovering log #433
-2025/07/29-18:00:21.950 5388 Reusing old log D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000433.log 
-2025/07/29-18:00:23.701 212c Level-0 table #439: started
-2025/07/29-18:00:23.719 212c Level-0 table #439: 201626 bytes OK
-2025/07/29-18:00:23.720 212c Delete type=0 #433
-2025/07/29-18:00:23.722 212c Manual compaction at level-0 from '\x00\x91\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x92\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/07/29-18:00:23.728 212c Level-0 table #441: started
-2025/07/29-18:00:23.744 212c Level-0 table #441: 447 bytes OK
-2025/07/29-18:00:23.745 212c Delete type=0 #438
-2025/07/29-18:00:23.745 212c Manual compaction at level-0 from '\x00\x92\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x93\x00\x00\x00' @ 0 : 0; will stop at '\x00\x92\x00\x00\x05' @ 492649 : 0
-2025/07/29-18:00:23.745 212c Compacting 1@0 + 1@1 files
-2025/07/29-18:00:23.762 212c Generated table #442@0: 4082 keys, 90880 bytes
-2025/07/29-18:00:23.762 212c Compacted 1@0 + 1@1 files => 90880 bytes
-2025/07/29-18:00:23.762 212c compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/07/29-18:00:23.763 212c Delete type=2 #441
-2025/07/29-18:00:23.763 212c Manual compaction at level-0 from '\x00\x92\x00\x00\x05' @ 492649 : 0 .. '\x00\x93\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/07/29-18:00:26.200 47b0 Compacting 1@1 + 1@2 files
-2025/07/29-18:00:26.317 47b0 Generated table #443@1: 63484 keys, 2136810 bytes
-2025/07/29-18:00:26.317 47b0 Compacted 1@1 + 1@2 files => 2136810 bytes
-2025/07/29-18:00:26.317 47b0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/07/29-18:00:26.318 47b0 Delete type=2 #436
-2025/07/29-18:00:26.318 47b0 Delete type=2 #439
-2025/07/29-18:00:26.318 47b0 Delete type=2 #442
+2025/07/31-02:40:27.903 21a0 Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/31-02:40:27.903 21a0 Recovering log #611
+2025/07/31-02:40:27.929 21a0 Reusing old log D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000611.log 
+2025/07/31-02:40:29.851 3100 Level-0 table #618: started
+2025/07/31-02:40:29.887 3100 Level-0 table #618: 199744 bytes OK
+2025/07/31-02:40:29.890 3100 Delete type=0 #611
+2025/07/31-02:40:29.894 3100 Manual compaction at level-0 from '\x00\xc3\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xc4\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/31-02:40:29.903 2a50 Level-0 table #620: started
+2025/07/31-02:40:29.959 2a50 Level-0 table #620: 448 bytes OK
+2025/07/31-02:40:29.960 2a50 Delete type=0 #617
+2025/07/31-02:40:29.964 2a50 Manual compaction at level-0 from '\x00\xc4\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xc5\x00\x00\x00' @ 0 : 0; will stop at '\x00\xc4\x00\x00\x05' @ 712732 : 0
+2025/07/31-02:40:29.964 2a50 Compacting 1@0 + 1@1 files
+2025/07/31-02:40:29.998 2a50 Generated table #621@0: 3765 keys, 86614 bytes
+2025/07/31-02:40:29.998 2a50 Compacted 1@0 + 1@1 files => 86614 bytes
+2025/07/31-02:40:29.999 2a50 compacted to: files[ 0 1 2 0 0 0 0 ]
+2025/07/31-02:40:30.000 2a50 Delete type=2 #620
+2025/07/31-02:40:30.003 2a50 Manual compaction at level-0 from '\x00\xc4\x00\x00\x05' @ 712732 : 0 .. '\x00\xc5\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/31-02:40:33.617 2a50 Compacting 1@1 + 2@2 files
+2025/07/31-02:40:33.902 2a50 Generated table #622@1: 76599 keys, 2228280 bytes
+2025/07/31-02:40:33.946 2a50 Generated table #623@1: 8303 keys, 560391 bytes
+2025/07/31-02:40:33.946 2a50 Compacted 1@1 + 2@2 files => 2788671 bytes
+2025/07/31-02:40:33.947 2a50 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/07/31-02:40:33.947 2a50 Delete type=2 #614
+2025/07/31-02:40:33.947 2a50 Delete type=2 #615
+2025/07/31-02:40:33.947 2a50 Delete type=2 #618
+2025/07/31-02:40:33.947 2a50 Delete type=2 #621
