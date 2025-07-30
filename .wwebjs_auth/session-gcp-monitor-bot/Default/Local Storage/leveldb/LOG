@@ -1,5 +1,3 @@
-2025/07/31-02:40:27.225 d64 Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\Local Storage\leveldb/MANIFEST-000001
-2025/07/31-02:40:27.226 d64 Recovering log #47
-2025/07/31-02:40:27.231 d64 Reusing old log D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\Local Storage\leveldb/000047.log 
-2025/07/31-02:40:49.734 3984 Level-0 table #50: started
-2025/07/31-02:40:49.799 3984 Level-0 table #50: 16644 bytes OK
+2025/07/31-02:50:30.719 4acc Reusing MANIFEST D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\Local Storage\leveldb/MANIFEST-000001
+2025/07/31-02:50:30.720 4acc Recovering log #49
+2025/07/31-02:50:30.722 4acc Reusing old log D:\Javascript\ondcauto\.wwebjs_auth\session-gcp-monitor-bot\Default\Local Storage\leveldb/000049.log 
