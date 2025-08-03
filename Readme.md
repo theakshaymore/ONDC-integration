@@ -18,7 +18,7 @@ Note:
 
 # Workflow
 
-![Workflow](workflow-diagram.png)
+![Workflow](ONDC.png)
 
 ## Installation
 
